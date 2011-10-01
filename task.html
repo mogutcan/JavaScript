@@ -1,0 +1,26 @@
+<html>
+<head>
+<script type="text/javascript">
+
+function writeText(txt)
+    {
+     document.getElementById("karsila").innerHTML=txt;
+    }
+
+</script>
+
+</head>
+
+<body>
+
+<img src ="ornek2.jpg" width ="400" height ="300" alt="Resim" usemap="#resimim" />
+<map name="resimim">
+
+<area shape ="rect" coords ="3,300,410,0"
+onmouseover="writeText('Resmin üzerinde geziniyorsunuz')"
+target ="_blank"/>
+
+<p id="karsila">Mouse ile resmin üzerine geliniz</p>
+
+</body>
+</html>
